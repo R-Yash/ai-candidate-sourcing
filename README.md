@@ -60,25 +60,6 @@ Run the complete pipeline:
 python main.py
 ```
 
-**Command Line Options:**
-```bash
-# Use concurrent processing (default) with 3 workers
-python main.py --mode concurrent --workers 3
-
-# Use sequential processing (original behavior)
-python main.py --mode sequential
-
-# Specify custom output file
-python main.py --output results.json
-
-# Full example with all options
-python main.py --mode concurrent --workers 5 --output my_results.json
-```
-
-**Processing Modes:**
-- **Concurrent (default)**: Process multiple jobs simultaneously for faster execution
-- **Sequential**: Process jobs one at a time (original behavior)
-
 **Performance Notes:**
 - Concurrent mode can significantly speed up processing when you have multiple jobs
 - Default worker count (3) balances speed with API rate limits
