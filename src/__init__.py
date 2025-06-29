@@ -1,0 +1,1 @@
+# Syn - AI-powered candidate sourcing and outreach 
