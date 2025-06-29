@@ -188,36 +188,6 @@ Results are saved to `final.json` with the following structure:
 - **Data Models**: Pydantic models in `src/data/`
 - **External Services**: API clients in `src/services/`
 
-### Adding New Features
-1. Add new modules to appropriate `src/` subdirectories
-2. Update `__init__.py` files for clean imports
-3. Add tests for new functionality
-4. Update this README
-
-### Testing
-```bash
-# Run tests (when implemented)
-uv run pytest
-
-# Run linting
-uv run ruff check .
-
-# Run formatting
-uv run ruff format .
-```
-
-## License
-
-[Add your license here]
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
-
 ## Support
 
-For questions or issues, please open a GitHub issue or contact [your-email].
+For questions or issues, please open a GitHub issue or contact [yashanth5836@gmail.com].
