@@ -7,7 +7,7 @@ load_dotenv()
 GOOGLE_API_KEY = os.environ['GOOGLE_SEARCH_API_KEY']
 GOOGLE_CSE_ID = os.environ['GOOGLE_SEARCH_CSE_ID']
 RAPID_API_KEY = os.environ['RAPID_API_KEY']
-RAPID_API_HOST = os.environ['RAPID_API_HOST']
+RAPID_API_HOST = "fresh-linkedin-profile-data.p.rapidapi.com"
 
 
 def search_linkedin_profiles(query: str) -> list:
