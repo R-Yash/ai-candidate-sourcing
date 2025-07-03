@@ -128,7 +128,6 @@ OPENAI_API_KEY=your_openai_key
 GOOGLE_SEARCH_API_KEY=your_google_key
 GOOGLE_SEARCH_CSE_ID=your_cse_id
 RAPID_API_KEY=your_rapidapi_key
-RAPID_API_HOST=your_rapidapi_host
 ```
 
 ## Output
